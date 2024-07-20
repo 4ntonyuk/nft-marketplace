@@ -4,8 +4,10 @@ const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./content/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: "class",
   theme: {
     fontSize: {
       "hero": ["96px", {
@@ -64,9 +66,12 @@ const config: Config = {
     },
     extend: {
       screens: {
-        "mobile": "375px",
-        "tablet": "1024px",
-        "desktop": "1440px"
+        // "mobile": "375px",
+        // "tablet": "1024px",
+        // "desktop": "1440px",
+        "sm": "582px",
+        "md": "930px",
+        "lg": "1280px"
       },
       fontFamily: {
         "roboto": ["Roboto", "sans-serif"],

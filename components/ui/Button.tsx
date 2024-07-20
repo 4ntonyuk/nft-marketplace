@@ -13,7 +13,7 @@ const Button = (props: ButtonProps) => {
   
   return (
     <button
-      className={`flex px-4 py-3 border-2 rounded-full font-dmsans text-button2 
+      className={`flex-shrink-0 flex justify-center items-center px-4 py-3 border-2 rounded-full font-dmsans text-button2
         ${type === "contour" ? "bg-white border-neutrals-6 text-neutrals-2" : "bg-primary-blue border-primary-blue text-neutrals-8"} 
         ${className}`}
         onClick={click}

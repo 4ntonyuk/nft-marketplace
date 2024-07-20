@@ -1,11 +1,13 @@
 import { Header } from "@/components";
+import { Hero } from "@/content";
 
 const Home = () => {
   return (
-    <main className="relative px-8 md:px-20 ">
-      <div className="max-container">
-        <Header />
-      </div>
+    <main className="relative  ">
+      <Header />
+      <section className="max-container padding">
+        <Hero />
+      </section>
     </main>
   )
 }

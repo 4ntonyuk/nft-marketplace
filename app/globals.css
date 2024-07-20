@@ -35,11 +35,18 @@
     font-weight: 700;
     src: url('../fonts/dm-sans/dm-sans-v15-latin-700.woff2') format('woff2'); 
   }
+  img, svg {
+    @apply pointer-events-none select-none;
+  }
 }
 
 @layer components {
   .max-container {
     @apply max-w-[1280px] my-0 mx-auto;
+  }
+
+  .padding {
+    @apply px-8 md:px-12;
   }
 
   .input {
