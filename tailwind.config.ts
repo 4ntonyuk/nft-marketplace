@@ -8,16 +8,59 @@ const config: Config = {
   ],
   theme: {
     fontSize: {
-      "xs": ["12px", "12px"],
-      "sm": ["14px", "24px"],
-      "base": ["16px", "24px"],
-      "lg": ["18px", "24px"],
-      "xl": ["24px", "32px"],
-      "2xl": ["32px", "40px"],
-      "3xl": ["40px", "48px"],
-      "4xl": ["48px", "56px"],
-      "5xl": ["64px", "64px"],
-      "6xl": ["96px", "96px"],
+      "hero": ["96px", {
+        lineHeight: "96px",
+        letterSpacing: "-2%",
+        fontWeight: "700"
+      }],
+      "headline1": ["64px", {
+        lineHeight: "64px",
+        letterSpacing: "-2%",
+        fontWeight: "700"
+      }],
+      "headline2": ["48px", {
+        lineHeight: "56px",
+        letterSpacing: "-2%",
+        fontWeight: "700"
+      }],
+      "headline3": ["40px", {
+        lineHeight: "58px",
+        letterSpacing: "-1%",
+        fontWeight: "700"
+      }],
+      "headline4": ["32px", {
+        lineHeight: "40px",
+        letterSpacing: "-1%",
+        fontWeight: "700"
+      }],
+      "body1": ["24px", {
+        lineHeight: "32px",
+        letterSpacing: "-1%",
+        fontWeight: "400"
+      }],
+      "body2": ["16px", "24px"],
+      "caption1": ["14px", "24px"],
+      "caption2": ["12px", "20px"],
+      "hairline1": ["16px", {
+        lineHeight: "16px",
+        letterSpacing: "0%",
+        fontWeight: "700"
+      }],
+      "hairline2": ["12px", {
+        lineHeight: "12px",
+        letterSpacing: "0%",
+        fontWeight: "700"
+      }],
+      "button1": ["16px", {
+        lineHeight: "16px",
+        letterSpacing: "0%",
+        fontWeight: "700"
+      }],
+      "button2": ["14px", {
+        lineHeight: "16px",
+        letterSpacing: "0%",
+        fontWeight: "700"
+      }],
     },
     extend: {
       screens: {

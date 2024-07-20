@@ -1,8 +1,12 @@
+import { Header } from "@/components";
+
 const Home = () => {
   return (
-    <div className=" underline text-3xl text-primary-blue max-container">
-      Hello world
-    </div>
+    <main className="relative px-8 md:px-20 ">
+      <div className="max-container">
+        <Header />
+      </div>
+    </main>
   )
 }
 

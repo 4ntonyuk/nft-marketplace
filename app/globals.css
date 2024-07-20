@@ -35,29 +35,19 @@
     font-weight: 700;
     src: url('../fonts/dm-sans/dm-sans-v15-latin-700.woff2') format('woff2'); 
   }
-
-  h1 {
-    @apply text-5xl -tracking-[2%]; 
-  }
-  h2 {
-    @apply text-4xl -tracking-[2%];
-  }
-  h3 {
-    @apply text-3xl -tracking-[1%];
-  }
-  h4 {
-    @apply text-2xl -tracking-[2%];
-  }
 }
 
 @layer components {
   .max-container {
-    @apply max-w-[1120px] my-0 mx-auto
+    @apply max-w-[1280px] my-0 mx-auto;
   }
-}
 
-@layer utilities {
-  .padding {
+  .input {
+    @apply border-2 border-neutrals-6 rounded-lg py-3 px-4 font-poppins text-caption2 text-neutrals-4 placeholder:text-neutrals-4;
+  }
+
+  .new-notification::before {
+    @apply absolute content-[''] -top-[6px] -right-[6px] w-3 h-3 bg-primary-green rounded-full;
 
   }
 }
